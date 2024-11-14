@@ -1,5 +1,5 @@
 /*async function fetchWeather(lat, lon) {
-    const apiKey = "64346cd0ec34644a2f8dc6b2893165f8";
+    const apiKey = "1234567891011121314";
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
     try {
@@ -20,7 +20,7 @@
 
 fetchWeather(20.2449896, 85.7974041); 
 */
-const apiKey = "af1c722251fad9f0c7d2ba3dbe900631"; // Define the API key
+const apiKey = "1234567891011121314"; // Define the API key(pseudo)
 const query = 'London';
 const url = `https://api.positionstack.com/v1/forward?access_key=${apiKey}&query=${query}`;//used the other API because it was not working for me
 
@@ -53,7 +53,7 @@ async function fetchCoordinates() {
 }
 
 async function fetchWeather(lat, lon) {
-    const apiKey = "99a97fe96f430cfdda527abd4945e192";
+    const apiKey = "1234567891011121314";//pseudo
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
     try {
